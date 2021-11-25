@@ -7,3 +7,17 @@ create-> php artisan make:controller ControllerName
 controller banao fir route me controller link kro like esss tarah se > use App\Http\Controllers\ControllerName;
 
 ab route banao ess tarah se controller ke sath > Route::get("home",[ControllerName::class,'showcontroller']);
+
+
+agar data paas karna hai to simple route se kuch data send karenge like /{khalid} ab controller me function me 
+ham receive karebge $khalid ab now return $khalid
+
+3> view
+
+view 2 tarike se call kar sakte hai controller ya direct 
+
+direct-> Route::view("userroutename","filename")
+
+4> component jo same file hoti hai uske liye like header footer  ensab keliye
+
+php artisan make:component ComponentName
