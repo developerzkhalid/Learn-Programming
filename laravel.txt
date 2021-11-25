@@ -1,2 +1,9 @@
-khalid
-khalid
+1> Redirect('about page');
+
+2> Controller 
+
+create-> php artisan make:controller ControllerName
+
+controller banao fir route me controller link kro like esss tarah se > use App\Http\Controllers\ControllerName;
+
+ab route banao ess tarah se controller ke sath > Route::get("home",[ControllerName::class,'showcontroller']);
