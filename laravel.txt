@@ -21,3 +21,7 @@ direct-> Route::view("userroutename","filename")
 4> component jo same file hoti hai uske liye like header footer  ensab keliye
 
 php artisan make:component ComponentName
+
+two file create honge resorce ke ander or apps ke undar view
+
+kisi bhi page pe include karne keliye use karenge <x-filename />
